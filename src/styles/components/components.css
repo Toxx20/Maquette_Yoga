@@ -1,0 +1,20 @@
+.header--page--head{
+    @apply flex justify-between items-center;
+}
+
+.container{
+    @apply  h-full;
+}
+
+.container--grid{
+    @apply grid justify-center grid-cols-[repeat(auto-fill,40%)] h-full gap-[2%];
+}
+
+.border--box{
+    @apply border border-(--grey) rounded-xl grid ;
+}
+
+.svg--center{
+    @apply flex justify-center;
+}
+

@@ -1,0 +1,15 @@
+.body{
+    @apply min-h-dvh min-w-full grid grid-rows-[30%_1fr_30%];
+}
+
+.header--page{
+    @apply grid grid-rows-[auto,1fr,auto] p-[2%];
+}
+
+.body--page{
+    @apply py-[5%] px-[2%];
+}
+
+.footer--page{
+    @apply p-[5%] grid grid-rows-3;
+}
