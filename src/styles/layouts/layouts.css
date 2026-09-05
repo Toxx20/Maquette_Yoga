@@ -1,5 +1,5 @@
 .body{
-    @apply min-h-dvh min-w-full grid grid-rows-[30%_1fr_30%];
+    @apply min-w-full grid grid-rows-[auto_1fr_20%];
 }
 
 .header--page{
@@ -11,5 +11,5 @@
 }
 
 .footer--page{
-    @apply p-[5%] grid grid-rows-3;
+    @apply px-[5%] grid grid-rows-3;
 }

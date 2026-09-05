@@ -1,20 +1,28 @@
 .header--page--head{
-    @apply flex justify-between items-center;
+    @apply flex justify-between;
 }
 
 .container{
-    @apply  h-full;
+    @apply flex flex-col h-full gap-8;
 }
 
 .container--grid{
-    @apply grid justify-center grid-cols-[repeat(auto-fill,40%)] h-full gap-[2%];
+    @apply grid justify-center grid-cols-[repeat(auto-fill,40%)] gap-[2%];
+}
+
+.container--flex{
+    @apply flex flex-col gap-2;
 }
 
 .border--box{
-    @apply border border-(--grey) rounded-xl grid ;
+    @apply border border-(--grey) rounded-xl grid p-[5%];
 }
 
 .svg--center{
     @apply flex justify-center;
+}
+
+.menu-list{
+    @apply flex flex-col items-center;
 }
 
